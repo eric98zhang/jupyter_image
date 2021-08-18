@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  notebook:
+    build: .
+    image: jupyterlab
+
+    volumes:
+      - type: bind
+        source: ./
+        target: /home/eric/project
+    ports:
+      - "8888:8888"
+    stdin_open: true
+    tty: true
+    user: "1000"

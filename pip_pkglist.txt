@@ -1,0 +1,4 @@
+black
+jupyterlab
+numpy
+pandas
