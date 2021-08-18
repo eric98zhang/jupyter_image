@@ -1,4 +1,7 @@
 black
 jupyterlab
+jupyterlab_code_formatter
+jupyterlab_vim
+jupyterlab-vimrc
 numpy
 pandas

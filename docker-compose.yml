@@ -9,6 +9,9 @@ services:
       - type: bind
         source: ./
         target: /home/eric/project
+      - type: bind
+        source: /home/eric/.jupyter
+        target: /home/eric/.jupyter
     ports:
       - "8888:8888"
     stdin_open: true
